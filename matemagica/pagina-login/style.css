@@ -1,0 +1,123 @@
+:root {
+    --font-family: "Nunito", sans-serif;
+    --light-gray: #E1E1E1;
+    --hard-gray: #A3A3A3;
+    --line-gray: #d4d4d4dc;
+    --medium-gray: #A3A3A3;
+    --hard-yellow: #FFAC2B;
+    --light-yellow: #FFDDA9;
+    --hard-purple: #BC4ED8;
+    --text-black: #515151;
+  }
+
+* {
+    font-family: var(--font-family);
+  }
+
+  body{
+    
+    margin: 0 auto;
+    padding-bottom: 200px;
+
+  }
+
+  header{
+    padding: 45px 10px;
+    border-bottom: 2px solid var(--line-gray);
+   
+  }
+
+  header div{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .button-yellow{
+    padding: 6px 23px;
+    border: 4px solid var(--light-yellow);
+    color: var(--hard-yellow);
+    font-weight: 900;
+    border-radius: 80px;
+    font-size: 33px;
+    background-color: white;
+  }
+
+  .button-purple{
+    background-color: var(--hard-purple);
+    border-radius: 20px;
+    font-size: 37px;
+    padding: 6px 25px;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+
+  }
+
+  .button-google{
+    background-color: white;
+    border: 5px solid var(--light-gray) !important;
+    border-radius: 20px;
+    font-size: 37px;
+    padding: 6px 25px;
+    color: var(--text-black);
+    border: none;
+    width: 100%;
+    font-weight: 700;
+
+  }
+
+  .button-google span{
+    margin-right: -9px;
+  }
+
+  main{
+    max-width: 1250px;
+  }
+
+  .icon-close{
+    font-size: 46px;
+    color: var(--medium-gray);
+  }
+
+  form h2{
+    font-weight: 900;
+    font-size: 42px;
+    margin: 100px 0px 15px 0px;
+  }
+
+  form input{
+    border-radius: 20px;
+    border: 5px solid var(--light-gray);
+    font-size: 37px;
+    padding: 5px 25px;
+  }
+
+  form input::placeholder{
+    color: #797979;
+    font-weight: 700;
+    font-size: 37px;
+  }
+
+  form p{
+    color: var(--hard-purple);
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 30px;
+  }
+
+  .text span{
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  
+
+  .line{
+    color: var(--line-gray);
+    width: 95%;
+    height: 4px;
+    background-color: var(--line-gray);
+    border-radius: 1px;
+  }
+
