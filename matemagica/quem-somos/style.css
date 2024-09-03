@@ -68,35 +68,22 @@
   .button-purple-large{
     background-color: var(--hard-purple);
     border-radius: 80px;
-    font-size: 45px;
-    padding: 8px 25px;
+    font-size: 42px;
+    padding: 8px 40px;
     color: white;
     border: none;
     width: 500px;
     font-weight: 900;
-    margin: 3rem auto 4rem auto;
+    margin: 2.5rem auto 2.5rem auto;
   }
   
   
   main{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 110px 20px 200px 110px;
+    padding: 110px 20px 150px 110px;
   }
   
-  main h1{
-    font-size: 62px;
-    font-weight: 900;
-    color: var(--hard-purple);
-  }
-  
-  main p {
-    margin: 20px 0px 42px 0px;
-    font-weight: bold;
-    font-size: 43px;
-    max-width: 700px;
-    text-align: center;
-  }
   
   .purple{
     color: var(--hard-purple);
@@ -114,24 +101,6 @@
     padding: 0;
   }
   
-  .second-main h2{
-    font-size: 62px;
-    font-weight: 900;
-    color: var(--hard-purple);
-  }
-
-  .second-main p.text{
-    font-size: 28px;
-    font-weight: bold;
-    color: var(--text-black);
-    text-align: start;
-  }
-
-  .second-main span{
-    font-size: 28px;
-    font-weight: 800;
-    color: var(--hard-purple);
-  }
 
   .purple-text{
     max-width: 1200px;
