@@ -81,9 +81,15 @@
   main{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 110px 20px 150px 110px;
+    padding: 110px 20px 150px 20px;
   }
   
+  .carrousel-container h1{
+      font-size: 87px;
+      font-weight: 900;
+      color: var(--hard-purple);
+      text-align: center;
+  }
   
   .purple{
     color: var(--hard-purple);
@@ -137,7 +143,9 @@
 
   .footer-itens{
     margin-top: 100px;
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0px 40px;
   }
 
   .footer-itens .list h3{
@@ -151,4 +159,31 @@
     font-size: 34px;
     color:#F5CDFF;
     font-weight: 900;
+  }
+
+  .swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .swiper{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .swiper-slide img {
+  
+    width: 570px;
+    height: 580px;
+    object-fit: cover;
   }
