@@ -33,25 +33,30 @@
   }
   
   
-  
+  main{
+    max-width: 900px;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
   .button-yellow{
     padding: 6px 23px;
     border:none;
     color: var(--hard-yellow);
     font-weight: 900;
     border-radius: 80px;
-    font-size: 23px;
+    font-size: 28px;
     background-color: white;
   }
   
   h2{
-    background-color: var(--hard-purple);
-    border-radius: 80px;
+    background-color: white ;
+    border-radius: 10px;
     font-size: 22px;
-    padding: 20px 100px;
-    color: white;
-    border: none;
-    width: 420px;
+    padding: 25px 10px;
+    color: var(--hard-purple);
+    border: 2px solid var(--hard-purple) ;
+    width: 250px;
     font-weight: 600;
     margin: 0 auto;
     text-align: center;
@@ -59,20 +64,20 @@
   }
 
   h2 a{
-    color: white;
+    color: var(--hard-purple);
     text-decoration: none;
   }
   
   h2 a:hover{
-    color: white !important;
+    color: var(--hard-yellow) !important;
     
   }
 
   h2:hover{
-    color: white;
+    color: var(--hard-yellow);
     transform: scale(1.1);
     transition: 300ms;
-    border: 1px solid rgb(82, 82, 82);
+    border: 1px solid var(--hard-yellow);
   }
   
   main{

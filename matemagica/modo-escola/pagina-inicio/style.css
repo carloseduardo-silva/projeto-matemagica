@@ -33,6 +33,13 @@ header div{
 }
 
 
+button:hover{
+  transform: scale(1.06);
+  transition: 250ms;
+  cursor: pointer;
+}
+  
+
 
 .button-yellow{
   padding: 6px 23px;

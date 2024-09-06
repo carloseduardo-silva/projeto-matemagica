@@ -37,6 +37,13 @@ header img{
 }
 
 
+button:hover{
+  transform: scale(1.06);
+  transition: 250ms;
+  cursor: pointer;
+}
+
+
 .button-yellow{
   padding: 6px 23px;
   border:none;
@@ -58,7 +65,6 @@ header img{
   margin: 7rem auto 1rem auto;
   font-family: 'League Spartan';
 }
-
 
 main{
   max-width: 1400px;

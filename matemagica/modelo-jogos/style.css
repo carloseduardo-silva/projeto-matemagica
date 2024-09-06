@@ -51,7 +51,7 @@
     color: #FC6886;
     
  }
-  
+
   
   .button-purple{
     background-color: var(--hard-purple);
@@ -76,6 +76,7 @@
     max-width: 1400px;
     margin: 0 auto;
     padding: 95px 20px 110px 20px;
+
   }
   
   main h2{
