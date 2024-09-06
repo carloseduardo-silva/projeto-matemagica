@@ -53,7 +53,7 @@
                 <div>
                     <h3> Avatar</h3>
 
-                    <div class="image-container">
+                    <div class="image-container d-flex flex-direction-row align-items-start">
                         <div class="circle-dotted">
                             <img src="" alt="">
                         </div>
@@ -81,7 +81,7 @@
                     <label for="nome">
                         Nome                
                     </label>
-                    <input id="nome" type="text" placeholder="Nome">
+                    <input id="nome" type="text" class="gray">
                 </div>
 
 
@@ -89,7 +89,7 @@
                     <label for="usuario">
                         Usuário               
                     </label>
-                    <input id="usuario" type="text" placeholder="Usuário">
+                    <input id="usuario" type="text" class="gray">
                 </div>
 
 
@@ -97,21 +97,31 @@
                     <label for="email">
                         Email                 
                     </label>
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" class="gray" >
                 </div>
 
                 <div class="d-flex flex-column align-items-start justify-content-center">
                     <label for="senha">
                         Senha Atual                 
                     </label>
-                    <input id="senha" type="password" placeholder="Senha Atual">
+                    <div class="d-flex flex-direction-row align-items-center justify-content-center group-input"> 
+
+                        <input id="senha" type="password" class="password">
+                       <iconify-icon icon="mdi:eye" class="icon-password" id="toggle-password-btn"></iconify-icon>
+                    </div>
+                 
                 </div>
 
                 <div class="d-flex flex-column align-items-start justify-content-center">
                     <label for="nova-senha">
                         Nova Senha                
                     </label>
-                    <input id="nova-senha" type="password" placeholder="Nova Senha">
+                    <div class="d-flex flex-direction-row align-items-center justify-content-center group-input"> 
+
+                        <input id="nova-senha" type="password" class="password" >
+                       <iconify-icon icon="mdi:eye" class="icon-password" id="toggle-newPassword-btn"></iconify-icon>
+                    </div>
+                   
                 </div>
 
                 
@@ -119,7 +129,7 @@
                     <label for="telefone">
                         Telefone                
                     </label>
-                    <input id="telefone" type="tel" placeholder="Telefone">
+                    <input id="telefone" type="tel" class="gray" >
                 </div>
 
                 
@@ -127,12 +137,12 @@
                     <label for="data-nascimento">
                         Data de Nascimento                 
                     </label>
-                    <input id="data-nascimento" type="text" placeholder="Data de Nascimento">
+                    <input id="data-nascimento" type="text" class="gray" >
                 </div>
               
           
 
-                <div class="d-flex flex-direction-row align-items-center justify-content-center gap-2 buttons-container">
+                <div class="d-flex flex-direction-row align-items-center justify-content-center gap-4 buttons-container">
                     <button class="button-grey">Salvar alterações</button>
 
                     <button class="button-red">Excluir conta</button>
@@ -144,5 +154,7 @@
             
 
         </main>
+
+        <script src="./perfil.js"></script>
     </body>
 </html>
