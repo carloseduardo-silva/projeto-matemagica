@@ -83,13 +83,7 @@
     margin: 0 auto;
     padding: 110px 20px 150px 20px;
   }
-  
-  .carrousel-container h1{
-      font-size: 87px;
-      font-weight: 900;
-      color: var(--hard-purple);
-      text-align: center;
-  }
+
   
   .purple{
     color: var(--hard-purple);
@@ -164,6 +158,7 @@
   .swiper-wrapper{
     display: flex;
     flex-direction: row;
+    margin: 80px 0px;
   }
 
   .swiper{
@@ -181,9 +176,25 @@
     flex-direction: row;
   }
 
-  .swiper-slide img {
+  .card-carrousel{
+    margin-bottom: 90px;
+  }
+
+  .card-carrousel img {
   
-    width: 570px;
-    height: 580px;
+    width: 530px;
+    height: 540px;
     object-fit: cover;
+  }
+
+  
+  .equipe-carrousel{
+    margin: 15px 0px 120px 0px;
+  }
+  
+  h1.equipe{
+      font-size: 87px;
+      font-weight: 900;
+      color: var(--hard-purple);
+      text-align: center;
   }

@@ -67,41 +67,40 @@
             <img src="/matemagica/images/simbolos 2.png" alt="">
         </div>
 
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper card-carrousel">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"> <img src="/matemagica/images/CARD1.png" alt="card1"> </div>
 
+              <div class="swiper-slide"> <img src="/matemagica/images/CARD1.png" alt="card1"> </div>
               <div class="swiper-slide">  <img src="/matemagica/images/CARD2.png" alt="card2"> </div>
-              <div class="swiper-slide">   <img src="/matemagica/images/CARD3.png" alt="card3"></div>             
+              <div class="swiper-slide">   <img src="/matemagica/images/CARD3.png" alt="card3"></div>     
+              <div class="swiper-slide"> <img src="/matemagica/images/CARD1.png" alt="card1"> </div>
+              <div class="swiper-slide">  <img src="/matemagica/images/CARD2.png" alt="card2"> </div>
+              <div class="swiper-slide">   <img src="/matemagica/images/CARD3.png" alt="card3"></div>  
+              <div class="swiper-slide"> <img src="/matemagica/images/CARD1.png" alt="card1"> </div>
+              <div class="swiper-slide">  <img src="/matemagica/images/CARD2.png" alt="card2"> </div>
+              <div class="swiper-slide">   <img src="/matemagica/images/CARD3.png" alt="card3"></div>          
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    
+        <h1 class="equipe"> nossa equipe </h1>
+
+        <div class="swiper mySwiper equipe-carrousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="/matemagica/images/Ellipse 9.png" alt="card1"> </div>
+                <div class="swiper-slide">  <img src="/matemagica/images/Ellipse 9.png" alt="card2"> </div>
+                <div class="swiper-slide">   <img src="/matemagica/images/Ellipse 9.png" alt="card3"></div>          
+                <div class="swiper-slide">   <img src="/matemagica/images/Ellipse 9.png" alt="card3"></div>    
+                <div class="swiper-slide">   <img src="/matemagica/images/Ellipse 9.png" alt="card3"></div>    
+                <div class="swiper-slide">   <img src="/matemagica/images/Ellipse 9.png" alt="card3"></div>       
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
-
-        <main class="carrousel-container d-flex flex-column align-items-center justify-content-center "> 
-
-            <div class="d-flex flex-row align-items-center justify-content-center gap-5">
-                
-                <div class="swiper-container">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-
-            </div>
-            
-        </main>
-
-        <main class="carrousel-container d-flex flex-column align-items-center justify-content-center "> 
-
-            <h1> nossa equipe </h1>
-
-        </main>
-
-      
-
 
         <div class="purple-text d-flex flex-column align-items-center justify-content-center gap-5 mx-auto">
 
@@ -150,9 +149,23 @@
 
 
         <script>
-            var swiper = new Swiper(".mySwiper", {
+            var swiper = new Swiper(".equipe-carrousel", {
+                slidesPerView: 3,
+                spaceBetween: 200,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+            var swiper = new Swiper(".card-carrousel", {
                 slidesPerView: 1,
-                spaceBetween: 30,
+                spaceBetween: 500,
                 loop: true,
                 pagination: {
                     el: ".swiper-pagination",
