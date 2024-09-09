@@ -15,7 +15,7 @@ togglePasswordBtn.addEventListener('click', () => {
 
 toggleNewPasswordBtn.addEventListener('click', () => {
   if (newPasswordInput.type === 'password') {
-    passwordInput.type = 'text';
+    newPasswordInput.type = 'text';
     console.log('click')
   } else {
     newPasswordInput.type = 'password';
