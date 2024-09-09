@@ -112,6 +112,11 @@
     border-radius: 50%;
   }
 
+  .icon-pencil:hover{
+    transform: scale(1.05);
+    transition: 250ms;
+  }
+
   form{
     padding: 20px 0px;
   }
