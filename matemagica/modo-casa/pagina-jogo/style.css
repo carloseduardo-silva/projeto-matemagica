@@ -82,15 +82,22 @@ main h2{
   
 }
 
-select#nivelJogo{
+.select-container{
   background-color: var(--hard-yellow);
   border-radius: 45px;
+  padding: 7px 20px 6px 20px;
+  border: none;
+}
+
+select#nivelJogo{
+ 
   font-family: 'League Spartan' !important;
   font-size: 31px;
   font-weight: bold;
   color: white;
-  border: none;
-  padding: 7px 20px 6px 20px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 
