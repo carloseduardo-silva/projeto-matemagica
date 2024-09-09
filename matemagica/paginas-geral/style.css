@@ -62,15 +62,17 @@
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
+    margin: 2rem;
   }
 
 
   
   a:hover{
     color: var(--hard-yellow) !important;
-    transform: scale(1.1);
+    transform: scale(1.25);
     transition: 300ms;
-    border: 1px solid var(--hard-yellow);
+    border: 2px solid var(--hard-yellow);
+    
   }
 
 
