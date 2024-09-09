@@ -85,7 +85,7 @@ main h2{
 .select-container{
   background-color: var(--hard-yellow);
   border-radius: 45px;
-  padding: 1px;
+  padding-right: 18px;
   border: none;
 }
 
@@ -97,11 +97,16 @@ select#nivelJogo{
   font-size: 31px;
   font-weight: bold;
   color: white;
+  border: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
 
+.icon-select{
+  font-size: 36px;
+  color: white;
+}
 
 
 .purple-round{
